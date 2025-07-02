@@ -1,0 +1,22 @@
+.profile{
+    
+    background-color: rgba(88, 94, 94, 0.407);
+    margin: 0px 10px 10px 0px;
+    width: 100%;
+}
+.backgroundProfile{
+    height: 200px;
+    width: 100%;
+
+}
+.backgroundWrapper{
+    padding: 10px;
+}
+.profileLogoWrapper{
+    padding: 10px;
+}
+.profileLogo{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
