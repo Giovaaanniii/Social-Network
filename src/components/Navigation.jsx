@@ -1,12 +1,12 @@
-import './styles/Navigation.css'
+import s from './styles/Navigation.module.css'
 export const Navigation = () => {
   return (
-    <nav className="navigation">
-      <div className='navPages'>Profile</div>
-      <div className='navPages'>Messages</div>
-      <div className='navPages'>News</div>
-      <div className='navPages'>Music</div>
-      <div className='navPages'>Settings</div>
+    <nav className={s.navigation}>
+      <div className={s.navPages}>Profile</div>
+      <div className={s.navPages}>Messages</div>
+      <div className={s.navPages}>News</div>
+      <div className={s.navPages}>Music</div>
+      <div className={s.navPages}>Settings</div>
     </nav>
   );
 };
