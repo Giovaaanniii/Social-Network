@@ -1,0 +1,12 @@
+.navigation{
+    display: flex;
+    background-color:rgb(13, 155, 53);
+    margin: 0px 10px 10px 10px;
+    flex-direction: column;
+    max-width:100px ;
+    height: 100vh;
+}
+.navPages{
+    padding: 10px;
+    color:white;    
+}

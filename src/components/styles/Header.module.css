@@ -1,0 +1,14 @@
+header{
+    background-color: rgb(255, 171, 46);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px ;
+
+}
+.header_logo{
+    width: 100%;
+    max-width: 100px;
+    height: 50px;
+    padding: 10px;
+}
