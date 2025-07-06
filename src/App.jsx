@@ -1,5 +1,5 @@
 import "./App.css";
-import { Profile } from "./components/Profile";
+import { Profile } from "./components/Profile/Profile";
 import { Header } from "./components/Header";
 import { Navigation } from "./components/Navigation";
 
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <div className="wrapper-app">
           <Navigation />
-      <Profile />
+    <Profile/>
       </div>
 
     </>

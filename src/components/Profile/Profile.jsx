@@ -1,4 +1,5 @@
-import s from './styles/Profile.module.css'
+import { MyPosts } from './MyPosts/MyPosts';
+import s from './Profile.module.css'
 export const Profile = () => {
   return (
     <div className={s.profile}>
@@ -9,14 +10,7 @@ export const Profile = () => {
         <img className={s.profileLogo} src="https://polimizd.ru/upload/iblock/149/w5t0hd4rqvzz233nzm58xdm9m31hjbfl.jpg" alt="profile_logo" />
         <p>about me</p>
       </div>
-      <div>
-        <p>write post</p>
-        <form action="">text</form>
-      </div>
-      <div>
-        <div>post 1</div>
-        <div>post 2</div>
-      </div>
+       <MyPosts/>
     </div>
   );
 };
