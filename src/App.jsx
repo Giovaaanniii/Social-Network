@@ -8,10 +8,9 @@ function App() {
     <>
       <Header />
       <div className="wrapper-app">
-          <Navigation />
-    <Profile/>
+        <Navigation />
+        <Profile />
       </div>
-
     </>
   );
 }

@@ -1,4 +1,4 @@
-import s from './styles/Navigation.module.css'
+import s from "./styles/Navigation.module.css";
 export const Navigation = () => {
   return (
     <nav className={s.navigation}>
